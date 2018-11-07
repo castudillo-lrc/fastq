@@ -1,7 +1,9 @@
 # fastq文件操作脚本集合
 
 ## 统计fastq序列长度文件
+
 包括不完整fastq文件，因为有seq判定的过程，不以四行为操作
+
 `fq_len_stat.py`
 
 useage:
@@ -17,6 +19,7 @@ output:
 ```
 
 ## fastq 转化为fasta
+
 包括不完整fastq文件，因为有seq判定的过程，不以四行为操作
 
 `fq_to_fa.py`
@@ -32,6 +35,7 @@ output:
 ```
 
 ## fastq序列截取
+
 指定截取的长度，选择截取的起始位置
 
 useage:
@@ -60,6 +64,7 @@ fastq file with compress gzip
 ```
 
 ## 获取指定前缀的fastq文件
+
 `get_samples_fq_list.py`
 
 useage:
