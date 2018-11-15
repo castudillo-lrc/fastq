@@ -77,3 +77,21 @@ output:
 屏幕输出为文本格式：
 filename	filename_L001_R1.fastq.gz,filename_L002_R1.fastq.gz	filename_L001_R2.fastq.gz,filename_L002_R2.fastq.gz
 ```
+
+## md5 检查
+
+`md5_check.py`
+
+useage:
+```sh
+#file and their md5 file must be at the same directory
+#会调用linux下的md5sum,不要为我为啥只是因为比较快
+python3 script [files]
+```
+output:
+```
+md5检测结果在当前目录下的md5.log中
+```
+
+
+
