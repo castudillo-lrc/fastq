@@ -91,6 +91,22 @@ python3 script [files]
 output:
 ```
 md5检测结果在当前目录下的md5.log中
+cat md5.log
+Thu, 15 Nov 2018 09:32:24 md5_check.py[line:35] INFO handle Sample_R18063688LU01-YC001/R18063688LU01-YC001_combined_R1.fastq.gz
+Thu, 15 Nov 2018 09:32:34 md5_check.py[line:38] INFO raw:86ced5cd2cf3758ab1c4bb63848e6c4e now:86ced5cd2cf3758ab1c4bb63848e6c4e
+Thu, 15 Nov 2018 09:32:34 md5_check.py[line:40] INFO R18063688LU01-YC001_combined_R1.fastq.gz md5 check is done
+Thu, 15 Nov 2018 09:32:34 md5_check.py[line:35] INFO handle Sample_R18063688LU01-YC001/R18063688LU01-YC001_combined_R2.fastq.gz
+Thu, 15 Nov 2018 09:32:47 md5_check.py[line:38] INFO raw:7ef34a5ae4b384cd1272fa40509ae797 now:7ef34a5ae4b384cd1272fa40509ae797
+Thu, 15 Nov 2018 09:32:47 md5_check.py[line:40] INFO R18063688LU01-YC001_combined_R2.fastq.gz md5 check is done
+Thu, 15 Nov 2018 09:32:47 md5_check.py[line:35] INFO handle Sample_R18063689LU01-YC002/R18063689LU01-YC002_combined_R1.fastq.gz
+Thu, 15 Nov 2018 09:32:57 md5_check.py[line:38] INFO raw:6238d096a93439a79b6a7a824c785aec now:6238d096a93439a79b6a7a824c785aec
+Thu, 15 Nov 2018 09:32:57 md5_check.py[line:40] INFO R18063689LU01-YC002_combined_R1.fastq.gz md5 check is done
+Thu, 15 Nov 2018 09:32:57 md5_check.py[line:35] INFO handle Sample_R18063689LU01-YC002/R18063689LU01-YC002_combined_R2.fastq.gz
+Thu, 15 Nov 2018 09:33:06 md5_check.py[line:38] INFO raw:8b9d570cd314eb7f03debbde1a9e73f7 now:8b9d570cd314eb7f03debbde1a9e73f7
+Thu, 15 Nov 2018 09:33:06 md5_check.py[line:40] INFO R18063689LU01-YC002_combined_R2.fastq.gz md5 check is done
+Thu, 15 Nov 2018 09:33:06 md5_check.py[line:35] INFO handle Sample_R18063690LU01-YC003/R18063690LU01-YC003_combined_R1.fastq.gz
+Thu, 15 Nov 2018 09:33:17 md5_check.py[line:38] INFO raw:cabb38f267d382aaebd62cbd9a881405 now:cabb38f267d382aaebd62cbd9a881405
+Thu, 15 Nov 2018 09:33:17 md5_check.py[line:40] INFO R18063690LU01-YC003_combined_R1.fastq.gz md5 check is done
 ```
 
 
