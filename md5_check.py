@@ -6,7 +6,7 @@ import sys
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-                    #filename='md5.log',
+                    filename='md5.log',
                     datefmt='%a, %d %b %Y %H:%M:%S')
 def File_check(f):
     if not os.path.isfile(f):
